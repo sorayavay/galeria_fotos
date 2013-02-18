@@ -12,5 +12,7 @@
     <string name="menu">Descripción</string>
     <string name="title_activity_menu">Galería</string>
     <string name="title_activity_galeria">GaleriaActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_info">InfoActivity</string>
 
 </resources>
