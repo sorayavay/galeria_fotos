@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <EditText 
+        android:id="@+id/input_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding"
+        android:paddingTop="@dimen/padding"
+        android:inputType="text"
+        android:hint="@string/texto_hint"
+        />  
+<Button android:id="@+id/boton_IrMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/boton_irmain"/>
+</LinearLayout>
