@@ -2,26 +2,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     android:orientation="vertical"
-    tools:context=".GaleriaActivity"
-    android:background="@android:color/white" >
+    tools:context=".GaleriaActivity" >
 
     <ImageView
         android:id="@+id/TituloMenuGaleria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/titulomenu" 
-        android:contentDescription="@string/menu"/>
+        android:contentDescription="@string/menu"
+        android:src="@drawable/titulomenu" />
 
     <ImageView
         android:id="@+id/TituloSubMenuGaleria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/subgaleria"
-        android:contentDescription="@string/menu" />
-    
-    <ListView android:id="@android:id/list"
-        android:layout_width="wrap_content" 
-        android:layout_height="match_parent"/>
+        android:contentDescription="@string/menu"
+        android:src="@drawable/subgaleria" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
