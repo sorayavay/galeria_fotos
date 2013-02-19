@@ -10,21 +10,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/darker_gray"
+        android:text="@string/titulo_listado"
         android:textColor="@android:color/white"
-        android:textSize="30sp"        
-        android:text="@string/titulo_listado" />
-    
-    
-    <Button 
+        android:textSize="30sp" />
+
+    <Button
         android:id="@+id/boton_nueva_actividad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/texto_boton"/>
-    
-    <ListView android:id="@android:id/list"
-        android:layout_width="wrap_content" 
-        android:layout_height="match_parent">
-        
+        android:text="@string/texto_boton" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
     </ListView>
 
 </LinearLayout>
